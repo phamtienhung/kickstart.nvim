@@ -6,5 +6,4 @@ return {
   vim.api.nvim_set_keymap('n', '<S-Left>', ':vertical resize -1<CR>', { desc = "Width - 1" }),
   vim.api.nvim_set_keymap('n', '<S-Up>', ':resize +1<CR>', { desc = "Height + 1" }),
   vim.api.nvim_set_keymap('n', '<S-Down>', ':resize -1<CR>', { desc = "Height - 1" }),
-  vim.api.nvim_set_keymap('n', '<leader>tt', ':FTermToggle<CR>', { desc = "FTermToggle" }),
 }
